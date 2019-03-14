@@ -5,4 +5,6 @@ package com.osg31.resepmakanan;
  *
  */
 public class Injection {
+
+
 }

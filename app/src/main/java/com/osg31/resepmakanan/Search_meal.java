@@ -9,14 +9,13 @@ import android.widget.Button;
 import butterknife.BindView;
 
 public class Search_meal extends AppCompatActivity {
-    
+
     @BindView(R.id.search) TextInputEditText cari;
     @BindView(R.id.ok) Button ok;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_meal);
-
 
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
