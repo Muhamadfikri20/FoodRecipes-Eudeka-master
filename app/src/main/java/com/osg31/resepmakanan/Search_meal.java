@@ -9,8 +9,7 @@ import android.widget.Button;
 import butterknife.BindView;
 
 public class Search_meal extends AppCompatActivity {
-
-
+    
     @BindView(R.id.search) TextInputEditText cari;
     @BindView(R.id.ok) Button ok;
     @Override
